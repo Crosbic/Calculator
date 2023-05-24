@@ -1,4 +1,4 @@
-package log;
+package model.log;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,8 +26,4 @@ public class LogService implements Log{
         return events.get(id);
     }
 
-    @Override
-    public void clear() {
-        events.clear();
-    }
 }

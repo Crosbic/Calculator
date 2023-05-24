@@ -1,2 +1,6 @@
-package model.write;public interface Writer {
+package model.write;
+
+public interface Writer {
+    void write(String text);
+
 }

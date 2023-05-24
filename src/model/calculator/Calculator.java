@@ -1,2 +1,7 @@
-package model.calculator;public interface Calculator {
+package model.calculator;
+
+import model.Expression;
+
+public interface Calculator {
+    double calculate(Expression expression) throws Exception;
 }

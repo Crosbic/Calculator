@@ -1,5 +1,8 @@
+import view.Menu;
+
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
+    static Menu menu = new Menu();
+    public static void main(String[] args) throws Exception {
+        menu.drawExpression();
     }
 }
